@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, viewport-fit=cover">
+    <title>德明管理顧問有限公司</title>
+    
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'GenSekiGothicTW-R';
+            src: url('/fonts/GenSekiGothicTW-R.woff2') format("woff2");
+        }
+        @font-face {
+            font-family: 'GenSekiGothicTW-M';
+            src: url('/fonts/GenSekiGothicTW-M.woff2') format("woff2");
+        }
+        @font-face {
+            font-family: 'GenSekiGothicTW-B';
+            src: url('/fonts/GenSekiGothicTW-B.woff2') format("woff2");
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+        :root {
+            --screen-max-width: 1920px;
+        }
+        
+        .container {
+            max-width: var(--screen-max-width);
+            margin: 0 auto;
+        }
+
+        /* header */
+        .main-nav {
+            background-color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 163px;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        .main-nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            padding: 0 90px;
+            box-sizing: border-box;
+        }
+        .menu {
+            display: flex;
+        }
+        .menu li+li {
+            margin-left: 75px;
+        }
+        .menu a{
+            color: #000;
+            font-size: 32px;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        /* banner */
+        .banner {
+            background-color: #fff;
+            width: 100%;
+            height: 888px;
+            margin-top: 163px;
+        }
+
+        /* question */
+        .QandA {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .QandA .QA-item {
+            background-color: #363231;
+            border-top: 2px solid #fff;
+            margin-bottom: -420px;
+            cursor: pointer;
+            transition: .6s;
+        }
+        .QandA .QA-item.show {
+            margin-bottom: 0;
+        }
+        .QA-item .container {
+            display: flex;
+            padding-top: 80px;
+        }
+        .QandA .content {
+            display: flex;
+            padding: 0 150px;
+        }
+        .QandA .content .list-style {
+            margin-right: 50px;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 234px;
+            color: #363231;
+            text-shadow: 2px 0 0 #fff, 
+                        -2px 0 0 #fff, 
+                        0 2px 0 #fff, 
+                        0 -2px 0 #fff, 
+                        1px 1px 0 #fff, 
+                        -1px -1px 0 #fff, 
+                        1px -1px 0 #fff, 
+                        -1px 1px 0 #fff;
+            font-weight: 700;
+        }
+        .QandA .content .right-content {
+            flex: 1;
+        }
+        .QandA .content .right-content .title {
+            margin: 60px 0 50px;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 59px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .QandA .content .right-content .detail p{
+            font-family: 'GenSekiGothicTW-R', 微軟正黑體, sans-serif, serif;
+            font-size: 22px;
+            color: #fff;
+            line-height: 39px;
+        }
+
+        /* introduce */
+        .intro-link{
+            background-color: #363231;
+            display: block;
+        }
+        .intro-link .row{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="container">
+                <a href="/" class="company-icon">
+                    <img src="https://fakeimg.pl/60x73/" alt="德明管理顧問有限公司" title="Home">
+                </a>
+                <ul class="menu">
+                    <li>
+                        <a href="#">What we do</a>
+                    </li>
+                    <li>
+                        <a href="#">Perspective</a>
+                    </li>
+                    <li>
+                        <a href="#">Call me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- banner -->
+        <section class="banner">
+            <div class="container">
+
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- question -->
+        <article id="whatWeDo" class="QandA">
+            <div class="QA-item">
+                <div class="container">
+                    <div class="content">
+                        <p class="list-style">01</p>
+                        <div class="right-content">
+                            <p class="title">問題一？</p>
+                            <div class="detail">
+                                <p>職工經歷財經必然歡迎研發頭銜裡面面對批發來</p>
+                                <p>看，即使站內組成研究好友高雄民國及其，一笑諾基亞不承擔</p>
+                                <p>一笑諾基亞不承擔保留成績，不再女士自由晶片看了極大青</p>
+                                <p>春建材南方感謝提醒，回應批評人們尋找一體真實對她形式，中央幫忙女兒命令搜尋引擎下來人群美國位於是有看見，文章圍繞，團體招標。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="https://fakeimg.pl/596x596/" alt="question 1">
+                </div>
+            </div>
+            <div class="QA-item">
+                <div class="container">
+                    <div class="content">
+                        <p class="list-style">02</p>
+                        <div class="right-content">
+                            <p class="title">問題二？</p>
+                            <div class="detail">
+                                <p>職工經歷財經必然歡迎研發頭銜裡面面對批發來</p>
+                                <p>看，即使站內組成研究好友高雄民國及其，一笑諾基亞不承擔</p>
+                                <p>一笑諾基亞不承擔保留成績，不再女士自由晶片看了極大青</p>
+                                <p>春建材南方感謝提醒，回應批評人們尋找一體真實對她形式，中央幫忙女兒命令搜尋引擎下來人群美國位於是有看見，文章圍繞，團體招標。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="https://fakeimg.pl/596x596/" alt="question 2">
+                </div>
+            </div>
+            <div class="QA-item">
+                <div class="container">
+                    <div class="content">
+                        <p class="list-style">03</p>
+                        <div class="right-content">
+                            <p class="title">問題三？</p>
+                            <div class="detail">
+                                <p>職工經歷財經必然歡迎研發頭銜裡面面對批發來</p>
+                                <p>看，即使站內組成研究好友高雄民國及其，一笑諾基亞不承擔</p>
+                                <p>一笑諾基亞不承擔保留成績，不再女士自由晶片看了極大青</p>
+                                <p>春建材南方感謝提醒，回應批評人們尋找一體真實對她形式，中央幫忙女兒命令搜尋引擎下來人群美國位於是有看見，文章圍繞，團體招標。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="https://fakeimg.pl/596x596/" alt="question 3">
+                </div>
+            </div>
+        </article>
+        
+        <!-- introduce -->
+        <section id="perspective" class="intro-link">
+            <div class="container">
+                <div class="row">
+                    <a href="#">
+                        <div>
+                            <p>品牌</p>
+                            <p>代理/代運營</p>
+                        </div>
+                        <img src="https://fakeimg.pl/680x400/" alt="品牌">
+                    </a>
+                    <a href="#">
+                        <div>
+                            <p>影像</p>
+                            <p>影像規劃/攝影/後製</p>
+                        </div>
+                        <img src="https://fakeimg.pl/900x600/" alt="影像">
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="#">
+                        <div>
+                            <p>顧問</p>
+                            <p>公司轉型/營運發展顧問</p>
+                        </div>
+                        <img src="https://fakeimg.pl/680x450/" alt="顧問">
+                    </a>
+                    <a href="#">
+                        <div>
+                            <p>廣告</p>
+                            <p>全媒體廣告投放規劃/執行</p>
+                        </div>
+                        <img src="https://fakeimg.pl/900x600/" alt="廣告">
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="#">
+                        <div>
+                            <p>系統</p>
+                            <p>網站/網頁/系統</p>
+                        </div>
+                        <img src="https://fakeimg.pl/680x375/" alt="系統">
+                    </a>
+                    <a href="#">
+                        <div>
+                            <p>行銷</p>
+                            <p>行銷內容製作</p>
+                        </div>
+                        <img src="https://fakeimg.pl/940x600/" alt="行銷">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="callMe" class="contact">
+        <h3>Contact Us</h3>
+        <ul>
+            <li class="">
+                <p>Phone</p>
+                <a href="tel:+042 3716645">042 3716645</a>
+            </li>
+            <li class="">
+                <p>Address</p>
+                <a href="https://maps.app.goo.gl/ZZV93mjrb43wvfJV6">台中市西區忠明南路497號14樓A1</a>
+            </li class="">
+            <li class="">
+                <p>E-mail</p>
+                <a href="mailto:albert@de-ming.com.tw">albert@de-ming.com.tw</a>
+            </li>
+            <li class="">
+                <p>Follow</p>
+                
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        // ;(function(){
+            const QAs = document.querySelectorAll(".QA-item");
+
+            const showQA = e => {
+                QAs.forEach(element=>{
+                    element.classList.remove("show");
+                });
+
+                const targetItem = e.target.closest('.QA-item');
+
+                targetItem.classList.add("show");
+            };
+            
+
+            QAs.forEach(element=>{
+                element.addEventListener("click", showQA);
+            });
+        // });
+    </script>
+</body>
+</html>
